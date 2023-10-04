@@ -1,0 +1,146 @@
+@media (max-width: 1400px) { }
+
+
+
+
+@media (max-width: 1200px) {
+    .search-input {
+        display: none;
+    }
+    #navbarSupportedContent{
+        gap:30px;
+    }
+    #navbarSupportedContent ul{
+        gap:30px;
+    }
+}
+
+@media (max-width: 992px){
+
+    .mobile-view{
+        display: flex;
+      }
+    .join-head{
+        
+        padding-bottom: 40px;
+    }
+
+    .hero-padding-top {
+        padding-top:0;
+    }
+    .hero h1 {
+        font-size: 33px;
+    }
+    .form-control{
+        margin-bottom: 20px;
+    }
+
+    .logo-part-padding {
+        padding-right: 0px;
+    }
+    .makeitflex {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    justify-content: center;
+    text-align: center;
+    }
+
+    .company-details-list{
+        padding-top: 40px;
+    }
+    .makeitflex {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 10px;
+    justify-content: center;
+    text-align: center;
+    }
+    .social-icons-details {
+
+        padding-left: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+@media (max-width: 767.98px) { 
+    .mobile-view{
+        display: flex;
+      }
+    .search-input {
+        display: none;
+    }
+    .section-padding-top {
+        padding-top: 0px;
+    }
+.mobile-padding-top{
+    padding-top: 60px;
+}
+.hero h1 {
+    font-size: 33px;
+}
+.social-icons-details {
+
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.makeitflex {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px;
+justify-content: center;
+text-align: center;
+}
+
+ }
+
+
+ @media (max-width: 575.98px) { 
+    .mobile-view{
+        display: flex;
+      }
+    .search-input {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 33px;
+    }
+    .section-padding-top {
+        padding-top: 0px;
+    }
+.mobile-padding-top{
+    padding-top: 60px;
+}
+    .company-details-list{
+        padding-top: 40px;
+        flex-direction: column;
+    }
+    
+
+.social-icons-details {
+
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.makeitflex {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;
+justify-content: center;
+text-align: center;
+}
+
+.end-sec{
+    justify-content: center;
+}
+.mobile-part{
+    flex-direction: column;
+    text-align: center;
+}
+  }
